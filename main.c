@@ -9,16 +9,16 @@ float funArea(float lebar, float tinggi);
 int main(int argc, char** argv) {
 	float lebar, tinggi; 
 	float area, hipotenus;
-	
+
 	printf("Lebar : "); scanf("%f", &lebar);
 	printf("Tinggi : "); scanf("%f", &tinggi);
-	
-    area = funArea(lebar, tinggi); 
-    hipotenus = funHipotenus(lebar, tinggi);
-    
-    printf("Hipotenus = %0.2f\n", hipotenus);
-    
-    printf("Area = (1/2)*Lebar*Tinggi = %0.2f", area);
+
+	area = funArea(lebar, tinggi); 
+	hipotenus = funHipotenus(lebar, tinggi);
+
+	printf("Hipotenus = %0.2f\n", hipotenus);
+
+	printf("Area = (1/2)*Lebar*Tinggi = %0.2f", area);
 	return 0;
 }
 
